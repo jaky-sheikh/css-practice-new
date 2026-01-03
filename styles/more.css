@@ -1,0 +1,10 @@
+#more {
+  border: 2px solid yellowgreen;
+  background-color: coral;
+  padding: 10px;
+  /* margin: 10px; */
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+#list {
+  border: none;
+}
