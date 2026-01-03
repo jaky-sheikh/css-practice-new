@@ -5,21 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="food.png" type="image/x-icon" />
     <title>My Food Blog</title>
+    <style>
+      #cotpoti {
+        color: red;
+      }
+      .special {
+        color: cornflowerblue;
+      }
+      .tea {
+        color: plum;
+      }
+      input {
+        font-size: medium;
+      }
+      input[type="password"] {
+        color: blueviolet;
+      }
+    </style>
   </head>
   <body>
-    <h2>My Food Blog</h2>
+    <h2 style="font-size: x-large; color: blueviolet; text-align: center">
+      <i>My Food Blog</i>
+    </h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum unde aliquid
-      aut natus. Explicabo repellat et, cum suscipit hic, iusto delectus minus
-      officiis quisquam corporis quos atque officia odio numquam?
+      A food court is generally an indoor plaza or common area within a facility
+      that is contiguous with the counters of multiple food vendors and provides
+      a ..
     </p>
-    <p>Food we serve</p>
+    <p style="color: rebeccapurple">Food we serve</p>
     <ol>
-      <li>Malai cha</li>
-      <li>Special Coffee</li>
-      <li>Special malai bun</li>
-      <li>Lemon Tea</li>
-      <li>Chotpoti</li>
+      <li class="tea">Malai cha</li>
+      <li class="tea">Lemon Tea</li>
+      <li class="special">Special Coffee</li>
+      <li class="special">Special malai bun</li>
+      <li id="cotpoti">Chotpoti</li>
     </ol>
+    <div>
+      <p>We want some response</p>
+      <p>Please give some time</p>
+    </div>
+    <input type="text" placeholder="Write your mail" name="" id="" />
+    <input type="password" placeholder="Your password" name="" id="" />
+    <input type="submit" value="Submit" />
   </body>
 </html>
